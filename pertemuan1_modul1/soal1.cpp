@@ -11,7 +11,7 @@ cin >> bil1;
 cout << "masukan bilangan ke dua: ";
 cin >> bil2;
 
-// menampilkan hasil
+
 cout << "Hasil operasi " << endl;
 
 cout << "penjumlahan : " << bil1 << " + " << bil2 << " = " << (bil1 + bil2) << endl;
