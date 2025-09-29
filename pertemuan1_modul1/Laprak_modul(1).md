@@ -6,7 +6,6 @@ Algoritma pemrograman  adalah  "langkah-langkah".  langkah  sistematis  dan logi
 
 
 
-
 ### A. Dasar Pemrograman <br/>
 #### 1. Struktur C++
 Struktur bahasa pemrograman C++ dimulai dengan #include untuk menyertakan library, using namespace std; untuk namespace standar, dan int main() sebagai fungsi utama yang diakhiri return 0;. C++ memiliki tipe data dasar seperti int, float, char, bool, dan string, serta operator aritmatika (+, -, *, /, %), perbandingan (==, !=, <, >, <=, >=), dan logika (&&, ||, !). Struktur kontrol meliputi percabangan if-else dan switch, perulangan for, while, dan do-while, serta fungsi dengan format tipe_return nama_fungsi(parameter) { return nilai; }. C++ juga mendukung array int arr[], pointer int *ptr, dan pemrograman berorientasi objek dengan class yang memiliki atribut private/public dan method. Input/output dilakukan menggunakan cin >> untuk input dan cout << untuk output.
@@ -312,7 +311,7 @@ Algoritma membentuk dasar logika program, seperti langkah-langkah perhitungan pa
 ...
 
 ## Referensi
-[1] Samsudin, dkk. (2020).  Perancangan Sistem Informasi Pembelajaran Algoritma dan Pemrograman Berbasis Web pada Program Studi Teknik Informatika STMIK ERESHA. Jurnal Informatika Universitas Pamulang, Vol. 5(4), hal. 521-528 https://www.researchgate.net/publication 357459576_Perancangan_Sistem_Informasi_Pembelajaran_Algoritma_dan_Pemrograman_Berbasis_Web_pada_Program_Studi_Teknik_Informatika_STMIK_ERESHA
+[1] Samsudin, S., Indrawan, I., & Mulyati, S. (2021). Perancangan Sistem Informasi Pembelajaran Algoritma dan Pemrograman Berbasis Web pada Program Studi Teknik Informatika STMIK ERESHA. Jurnal Informatika Universitas Pamulang, 5(4), 521-528.[text](https://pdfs.semanticscholar.org/b6c7/e5391cf3926526b20b7380999de7aaf1b319.pdf)
 <br>[2] Dasar Pemrograman Dengan C++ Materi Paling Dasar Untuk Menjadi Programmer Berbagai Platform Nugraha (2021) [text](https://books.google.co.id/books?hl=en&lr=&id=9AhREQAAQBAJ&oi=fnd&pg=PP1&dq=dasar+pemrograman+c&ots=QGHrmTjnpO&sig=kRUqQeGDZ10Em0yRctDG5uBnGoY&redir_esc=y#v=onepage&q=dasar%20pemrograman%20c&f=false)
 <br>[3] [PDF] Algoritma dan Pemrograman C++ R FIRLIANA, P Kasih - 2018 - repository.unpkediri.ac.id [text](https://repository.unpkediri.ac.id/2468/3/55201_0701107802_Similarity.pdf)
 <br>[4]Al Fatta, H. (2006). Dasar Pemrograman C++ Disertai dengan Pengenalan Pemrograman Berorientasi Objek. Penerbit Andi.[text](https://books.google.com/books?hl=id&lr=&id=H20EMvS2EmQC&oi=fnd&pg=PA1&dq=dasar+pemrograman+c%2B%2B&ots=tY4pv-wbM2&sig=67EPnyiMRbfi1ljuWBx08d95H5Q)
