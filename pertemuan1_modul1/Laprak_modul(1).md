@@ -1,41 +1,46 @@
 # <h1 align="center">Laporan Praktikum Modul 1 - Codeblocks IDE & Pengenalan Bahas C++ (Bagian Pertama)</h1>
-<p align="center">Muhammad Dhimas Hafizh Fathurrahman - 2311102151</p>
+<p align="center">Muhammad Nur Ramadhani - 103112400154</p>
 
 ## Dasar Teori
 Algoritma pemrograman  adalah  "langkah-langkah".  langkah  sistematis  dan logis  untuk mengembangkan  program  komputer  menggunakan  bahasa  pemrograman  untuk  memecahkan  masalah dan mencapai tujuan tertentu [1],C++ merupakan salah satu bahasa pemrograman yang populer digunakan bagi siapa saja yang baru belajar bahasa pemrograman. C++ termasuk kedalam bahasa pemrograman komputer tingkat tinggi yang mana artinya bahasa pemrograman ini mudah dimengerti dan di pelajari oleh manusia [2]
-contoh :
-Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas[1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer.
+
+
+
 
 ### A. Dasar Pemrograman <br/>
 #### 1. Struktur C++
-
+Struktur bahasa pemrograman C++ dimulai dengan #include untuk menyertakan library, using namespace std; untuk namespace standar, dan int main() sebagai fungsi utama yang diakhiri return 0;. C++ memiliki tipe data dasar seperti int, float, char, bool, dan string, serta operator aritmatika (+, -, *, /, %), perbandingan (==, !=, <, >, <=, >=), dan logika (&&, ||, !). Struktur kontrol meliputi percabangan if-else dan switch, perulangan for, while, dan do-while, serta fungsi dengan format tipe_return nama_fungsi(parameter) { return nilai; }. C++ juga mendukung array int arr[], pointer int *ptr, dan pemrograman berorientasi objek dengan class yang memiliki atribut private/public dan method. Input/output dilakukan menggunakan cin >> untuk input dan cout << untuk output.
 #### 2. Tipe Data 
-
+Tipe data adalah jenis tempat penyimpanan data.[2]
 #### 3. Variabel
-
+Variabel adalah tempat menyimpan data. Variabel dapat diisi angka, huruf, karakter lain tergantung tipe datanya.[2]
 #### 4. Konstanta
+konstanta adalah jenis identifier yang bersifat konstan yang artinya nilai dalam variabel tidak dapat diubah.[2]
 
 ### B. Input dan Output<br/>
-#### 1. Fungsi cout
-
+input output disediakan oleh library yang bernama iostream.[4]
+#### 1. Fungsi cin
+cin-digunakan untuk input yang berasal dari keyboard.[4]
 #### 2. Fungsin cin
-#### 3. ...
-
+cout-digunakan untuk output ke layar.[4]
 ### C. Operator <br/>
 #### 1. Operator Aritmatika
-
+Operator artimatika digunakan untuk perhitungan aritmatika yang terdiri dari beberapa jenis antara lain pembagian, pemjumlahan, perkalian, pengurangan, dan sisa pembagian.[5]
 #### 2. Operator Logika 
+Operator logika adalah operasi yang hanya memberikan hasil benar atau salah. Operator logika terdiri dari "dan/end"(&&), "atau/or",(||), dan !(not).[5]
 
 ### D. Kondisional <br/>
 #### 1. If - else
-
+if-else adalah salah satu bentuk conditional statement paling dasar dalam C++. Ini memungkinkan program untuk memilih di antara dua blok kode yang akan dieksekusi berdasarkan kondisi yang dievaluasi.[6]
 #### 2. Switch - case
+Switch memungkinkan Anda mengeksekusi kode yang berbeda berdasarkan nilai yang Anda berikan. Switch biasanya digunakan untuk menangani situasi yang memerulukan tindakan berbeda dari beberapa kondisi.[6]
 
 ### E.  Perulangan <br/>
 #### 1. For loop
+Perulangan For Struktur pengulangan for digunakan untuk mengulang statemen atau satu blok statemen berulang kali.[3]
 
 #### 2. While loop
-
+Perulangan while Perulangan dengan while merupakan perulangan yang memerlukan dan menggunakan syarat awal.[3]
 ## Guided 
 
 ### 1. ...
@@ -309,4 +314,7 @@ Algoritma membentuk dasar logika program, seperti langkah-langkah perhitungan pa
 ## Referensi
 [1] Samsudin, dkk. (2020).  Perancangan Sistem Informasi Pembelajaran Algoritma dan Pemrograman Berbasis Web pada Program Studi Teknik Informatika STMIK ERESHA. Jurnal Informatika Universitas Pamulang, Vol. 5(4), hal. 521-528 https://www.researchgate.net/publication 357459576_Perancangan_Sistem_Informasi_Pembelajaran_Algoritma_dan_Pemrograman_Berbasis_Web_pada_Program_Studi_Teknik_Informatika_STMIK_ERESHA
 <br>[2] Dasar Pemrograman Dengan C++ Materi Paling Dasar Untuk Menjadi Programmer Berbagai Platform Nugraha (2021) [text](https://books.google.co.id/books?hl=en&lr=&id=9AhREQAAQBAJ&oi=fnd&pg=PP1&dq=dasar+pemrograman+c&ots=QGHrmTjnpO&sig=kRUqQeGDZ10Em0yRctDG5uBnGoY&redir_esc=y#v=onepage&q=dasar%20pemrograman%20c&f=false)
-<br>...
+<br>[3] [PDF] Algoritma dan Pemrograman C++ R FIRLIANA, P Kasih - 2018 - repository.unpkediri.ac.id [text](https://repository.unpkediri.ac.id/2468/3/55201_0701107802_Similarity.pdf)
+<br>[4]Al Fatta, H. (2006). Dasar Pemrograman C++ Disertai dengan Pengenalan Pemrograman Berorientasi Objek. Penerbit Andi.[text](https://books.google.com/books?hl=id&lr=&id=H20EMvS2EmQC&oi=fnd&pg=PA1&dq=dasar+pemrograman+c%2B%2B&ots=tY4pv-wbM2&sig=67EPnyiMRbfi1ljuWBx08d95H5Q)
+<br>[5]Anam, S., Yanti, I., Fitriah, Z., & Habibah, U. (2021). Cara Mudah Belajar Bahasa Pemrograman C++. Universitas Brawijaya Press.[text](https://books.google.com/books?hl=id&lr=&id=4UJTEAAAQBAJ&oi=fnd&pg=PA11&dq=dasar+pemrograman+c%2B%2B&ots=LFyt4-1WZO&sig=-6-SiK4yQDd6Yhc7IVra5FfhMO8)
+<br>[6]Harnadi, Bernardinus, Antonius Eldy Putra, Wilibrordus Endra Bima, dkk.(2025)."Dasar Pemrograman Logika Dengan C++". Semarang: Siega Publisher.[text](https://www.unika.ac.id/wp-content/uploads/2025/02/ebook-Berdi-Dasar-Logika-Pemrograman-C.pdf)
