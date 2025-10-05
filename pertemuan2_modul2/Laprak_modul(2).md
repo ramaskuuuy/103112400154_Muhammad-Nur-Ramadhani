@@ -37,6 +37,7 @@ int main() {
 }
 ```
 penjelasan singkat guided 1
+Program ini membuat array dengan 5 elemen, meminta user untuk mengisi nilainya, kemudian menampilkan semua nilai yang telah diinput.
 
 ### 2. Array Pointer
 
@@ -62,6 +63,7 @@ int main(){
 
 ```
 penjelasan singkat guided 2
+Program ini mendemonstrasikan hubungan antara array dan pointer, serta menunjukkan 2 cara mengakses elemen array: menggunakan pointer dan menggunakan indeks biasa.
 
 ### 3. Fungsi Prosedur
 
@@ -110,6 +112,7 @@ void operasiAritmatika(int arr[], int ukuran){
 
 ```
 penjelasan singkat guided 3
+Program ini berfungsi untuk memasukkan data ke dalam array, kemudian mencari nilai maksimum, serta menghitung jumlah total dan hasil perkalian seluruh elemen array dengan menggunakan fungsi, perulangan, dan operasi aritmatika dalam bahasa C++.
 
 ## Unguided 
 
@@ -252,15 +255,11 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 1](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan2_modul2/output_ungide1_modul2.png)
 
-contoh :
-![Screenshot Output Unguided 1_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided1-1.png)
-
-##### Output 2
-![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
 penjelasan unguided 1 
+Program ini merupakan aplikasi console yang dirancang untuk melakukan berbagai operasi matematika pada dua buah matriks berukuran 3×3. Program mengimplementasikan tiga operasi dasar matriks yaitu penjumlahan, pengurangan, dan perkalian matriks. Program menggunakan sistem menu interaktif dengan struktur kontrol switch-case yang memungkinkan user untuk memilih operasi yang diinginkan secara berulang hingga memutuskan untuk keluar.
 
 ### 2. (soal unguided 2)
 Buatlah program menghitung luas dan keliling persegi panjang dengan proses perhitungan
@@ -320,20 +319,16 @@ int main(){
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 2](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan2_modul2/output_unguided2_modul2.png)
 
-contoh :
-![Screenshot Output Unguided 2_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided2-1.png)
-
-##### Output 2
-![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
 penjelasan unguided 2
+Program ini merupakan aplikasi console C++ yang menghitung luas dan keliling persegi panjang menggunakan konsep pointer. Melalui pointer, program mengakses dan mengubah nilai variabel secara tidak langsung. Awalnya, perhitungan dilakukan dengan panjang 10 dan lebar 5, lalu nilai tersebut diubah melalui pointer. Setelah perubahan, program menghitung ulang untuk menunjukkan bahwa modifikasi lewat pointer memengaruhi variabel asli dan menghasilkan hasil baru.
 
 
 
 ## Kesimpulan
-...
+Praktikum Modul 2 memperkenalkan penggunaan array dan pointer dalam C++. Array digunakan untuk menyimpan sekumpulan data sejenis, sedangkan pointer berfungsi mengakses dan mengubah nilai variabel secara tidak langsung melalui alamat memori. Dengan menggabungkan keduanya serta memanfaatkan fungsi dan prosedur, program menjadi lebih efisien dan terstruktur.
 
 ## Referensi
 [1] Pratama, M. A. (2020). STRUKTUR DATA ARRAY DUA DIMENSI PADA PEMROGRAMAN C++.[text](https://osf.io/preprints/vyech)
