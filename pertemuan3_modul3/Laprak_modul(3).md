@@ -47,6 +47,7 @@ int main(){
 
 ```
 penjelasan singkat guided 1
+
 Program ini dirancang untuk mengelola data mahasiswa. Data yang disimpan meliputi nama dan dua nilai, menggunakan struktur (struct) mahasiswa. Terdapat dua fungsi utama: inputMhs untuk memasukkan data, dan rata2 untuk menghitung rata-rata dari kedua nilai tersebut.
 
 ### 2. Soal Guided 2
@@ -105,6 +106,7 @@ int main(){
 
 ```
 penjelasan singkat guided 2
+
 Program ini dirancang untuk mengelola data mahasiswa secara modular dengan memisahkan kode ke dalam tiga file utama: file header, file implementasi, dan file utama. File header (.h) bertindak sebagai antarmuka (interface) program, di mana di dalamnya didefinisikan struktur data mahasiswa yang berisi NIM, nilai1, dan nilai2, serta deklarasi untuk fungsi inputMhs() dan rata2(). Sementara itu, file implementasi (.cpp) berisi definisi atau rincian kode dari kedua fungsi tersebut; fungsi inputMhs secara spesifik menangani proses input data dari pengguna, sedangkan fungsi rata2 melakukan kalkulasi nilai rata-rata. Terakhir, file utama (main.cpp) berfungsi sebagai titik eksekusi, di mana sebuah variabel mahasiswa dibuat, kemudian fungsi inputMhs dipanggil untuk mengisi data, dan diakhiri dengan pemanggilan fungsi rata2 untuk menghitung sekaligus menampilkan hasil akhirnya ke layar.
 
 ## Unguided 
@@ -158,10 +160,10 @@ int main(){
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan2_modul2/output_ungide1_modul2.png)
-
+![Screenshot Output Unguided 1](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan3_modul3/output_unguided1_modul3.png)
 
 penjelasan unguided 1 
+
 Program ini merupakan sebuah aplikasi C++ sederhana yang dirancang untuk mengelola data nilai mahasiswa. Inti dari program ini adalah penggunaan sebuah struct bernama Mahasiswa untuk mengelompokkan informasi setiap mahasiswa, yang mencakup nama, NIM, serta nilai UTS, UAS, Tugas, dan nilai akhir. Untuk memproses nilai, terdapat fungsi terpisah bernama hitungNilaiAkhir yang bertugas mengkalkulasi nilai akhir berdasarkan rumus pembobotan 35% dari nilai UTS, 40% dari UAS, dan 25% dari Tugas. 
 
 ### 2. (soal unguided 2)
@@ -222,7 +224,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan2_modul2/output_unguided2_modul2.png)
+![Screenshot Output Unguided 2](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan3_modul3/output_unguided2_modul3.png)
 
 penjelasan unguided 2
 
@@ -315,15 +317,16 @@ int main(){
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan2_modul2/output_unguided2_modul2.png)
+![Screenshot Output Unguided 2](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan3_modul3/output_unguided3_modul3.png)
 
 penjelasan unguided 3
+
 Program C++ ini dirancang untuk menukar sebuah nilai spesifik antara dua array dua dimensi (matriks 3x3) berdasarkan input pengguna. Fungsi inti dari program ini, tukarNilai, bekerja dengan cara mencari nilai yang diinginkan di masing-masing array dan kemudian menyimpan alamat memori dari kedua nilai tersebut menggunakan pointer. Setelah kedua alamat ditemukan, nilai-nilai tersebut ditukar secara efisien. Untuk mempermudah visualisasi, sebuah fungsi terpisah bernama tampilakanArray digunakan untuk mencetak isi array ke layar dalam format matriks yang rapi. Seluruh proses ini diatur dalam fungsi main, yang pertama-tama menginisialisasi dan menampilkan kondisi awal kedua array, kemudian meminta input dari pengguna, memanggil fungsi tukarNilai untuk melakukan pertukaran, dan terakhir menampilkan kembali kedua array untuk menunjukkan hasilnya.
 
 
 
 ## Kesimpulan
-Praktikum Modul 2 memperkenalkan penggunaan array dan pointer dalam C++. Array digunakan untuk menyimpan sekumpulan data sejenis, sedangkan pointer berfungsi mengakses dan mengubah nilai variabel secara tidak langsung melalui alamat memori. Dengan menggabungkan keduanya serta memanfaatkan fungsi dan prosedur, program menjadi lebih efisien dan terstruktur.-
+Tipe data adalah klasifikasi dasar yang menentukan jenis nilai suatu variabel. Melengkapi konsep ini, Tipe Data Abstrak (ADT) adalah model data yang didefinisikan oleh pemrogram untuk membungkus sekumpulan nilai beserta operasi-operasi yang dapat dilakukan terhadapnya. ADT diciptakan untuk memenuhi kebutuhan spesifik yang tidak tercakup oleh tipe data bawaan dengan cara menyembunyikan detail implementasi yang kompleks. 
 ## Referensi
 [1] Pratama, M. A. (2020). STRUKTUR DATA ARRAY DUA DIMENSI PADA PEMROGRAMAN C++.[text](https://osf.io/preprints/vyech)
 <br>[2] Triase, T. (2020). Struktur Data: Diktat Edisi Revisi.[text](http://repository.uinsu.ac.id/9717/2/Diktat%20Struktur%20Data.pdf)
