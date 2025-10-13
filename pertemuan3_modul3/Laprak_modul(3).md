@@ -143,7 +143,7 @@ int main(){
     for (int i = 0; i < jumlahMhs; i++) {
         cout << "\nData Mahasiswa ke-" << (i + 1) << endl;
         cout << "Nama: ";
-        cin >> mhs[i].nama;
+        getline(cin >> ws, mhs[i].nama);
         cout << "NIM: ";
         cin >> mhs[i].nim;
         cout << "Nilai UTS: ";
@@ -155,6 +155,15 @@ int main(){
 
         mhs[i].nilaiAkhir = hitungNilaiAkhir(mhs[i].uts, mhs[i].uas, mhs[i].tugas);
     }
+    
+ for(int i = 0; i < jumlahMhs; i++) {
+        cout << "\n=== DAFTAR NILAI MAHASISWA ===" << endl;
+        cout << "Nama : " << mhs[i].nama << endl;
+        cout << "NIM : " << mhs[i].nim << endl;
+        cout << "Nilai Akhir : " << mhs[i].nilaiAkhir << endl;
+    }
+    
+    return 0; 
 }
 ```
 ### Output Unguided 1 :
