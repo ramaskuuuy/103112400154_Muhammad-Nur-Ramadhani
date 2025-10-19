@@ -663,4 +663,4 @@ Praktikum ini menunjukkan bahwa Singly Linked List merupakan struktur data dinam
 
 ## Referensi
 [1] Pratama, M. A. (2020). STRUKTUR DATA ARRAY DUA DIMENSI PADA PEMROGRAMAN C++.[text](https://osf.io/preprints/vyech)
-<br>[2] Düzgün, M. T. (2024, June 9). Understanding and implementing singly linked lists in C++. Medium..[text]([text](https://medium.com/@togunchan/understanding-and-implementing-singly-linked-lists-in-c-2dc7aa5df07e))
+<br>[2] Düzgün, M. T. (2024, June 9). Understanding and implementing singly linked lists in C++. Medium..[text](https://medium.com/@togunchan/understanding-and-implementing-singly-linked-lists-in-c-2dc7aa5df07e)
