@@ -406,10 +406,10 @@ struct list {
     address first;
 };
 
-typedef list List; // Tambahkan ini untuk konsistensi
+typedef list List; 
 
 void CreateList(List &L);
-address alokasi(infoType X);      // Perbaiki: infoType (bukan infotype)
+address alokasi(infoType X);      
 void dealokasi(address &P);
 void printInfo(List L);
 void insertFirst(List &L, address P);
