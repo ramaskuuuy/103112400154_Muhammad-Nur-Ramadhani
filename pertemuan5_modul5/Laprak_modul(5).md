@@ -2,10 +2,13 @@
 <p align="center">Muhammad Nur Ramadhani - 103112400154</p>
 
 ## Dasar Teori
-Struktur data menjelaskan koleksi atau kelompok data yang dapat dibedakan oleh organisasi dan operasi yang dilakukan terhadapnya. Penggunaan struktur data yang tepat selama proses pemrograman akan menghasilkan algoritma yang lebih jelas dan tepat, sehingga menjadikan program secara keseluruhan lebih sederhana.[1]
+Linked List adalah jenis struktur data linier di mana setiap elemen tidak disimpan di tempat yang berdekatan, melainkan dihubungkan melalui pointer. Linked List terdiri dari rangkaian node yang saling terhubung, di mana setiap node berisi data dan alamat node berikutnya .[1]
 
-### A. Singly Linked List<br/>
-Linked list adalah sejenis struktur data yang ukurannya dapat berubah. Tidak seperti array, item dalam linked list tidak semuanya disimpan di samping satu sama lain dalam memori. Sebaliknya, setiap item, yang disebut node, memiliki tautan atau penunjuk ke item berikutnya. Pengaturan ini memudahkan untuk menambah atau menghapus item dari daftar. Daftar terkait tunggal adalah jenis spesifik dari daftar terkait di mana setiap simpul hanya menunjuk ke simpul berikutnya dalam daftar. Struktur single linked list yaitu, data dan pointer(next).[2]
+### A. Linear search<br/>
+Linear Search adalah algoritma yang bekerja dengan mencocokkan data satu per satu secara berurutan, mulai dari ujung awal hingga ujung akhir dari sekumpulan data. Pencarian menggunakan Linear Search tidak akan berhenti sampai data yang dicari berhasil ditemukan. Kelebihan linear search adalah datanya tidak harus terurut dan dan alhoritmanya mudah dipelajari, tetapi tidak cocok unutk data yang sangat besar dan waktu pencariannya lama .[2]
+
+### B. Binary searcht<br/>
+Binary Search adalah metode pencarian yang digunakan untuk data yang sudah terurut. Metode ini bekerja dengan membagi data menjadi dua bagian secara terus-menerus. Dengan membagi dua, proses pencarian menjadi lebih cepat karena tidak perlu mencari di bagian yang tidak relevan. Kelebihan binary search adalah pencarian nya lebih cepat dan efektif jika datanya banyak, tetapi datanya harus terurut[2].
 
 ## Guided 
 
@@ -445,9 +448,9 @@ Program ini melakukan pencarian linear pada sebuah linked list, di mana setiap e
 ### 1. (soal unguided 1)
 Implementasikan program C++ yang menggunakan algoritma Binary Search pada Linked List untuk mencari elemen tertentu. Program harus mampu:
 
- 1.Membuat linked list dengan menambahkan node di akhir
- 2.Mengimplementasikan binary search pada linked list
- 3.Menampilkan detail proses pencarian dan hasil akhir Petunjuk Tugas 1: • Gunakan struktur Node dengan data integer dan pointer next • Implementasikan fungsi append() untuk menambah node • Implementasikan fungsi binarySearch() yang mengembalikan pointer ke node yang ditemukan • Data dalam linked list harus terurut (ascending) untuk binary search bekerja dengan benar • Tampilkan langkah-langkah pencarian dan posisi tengah setiap iterasi • Program utama harus membuat linked list dengan minimal 5 elemen dan melakukan pencarian
+ 1.Membuat linked list dengan menambahkan node di akhir <br>
+ 2.Mengimplementasikan binary search pada linked list <br>
+ 3.Menampilkan detail proses pencarian dan hasil akhir Petunjuk Tugas 1: • Gunakan struktur Node dengan data integer dan pointer next • Implementasikan fungsi append() untuk menambah node • Implementasikan fungsi binarySearch() yang mengembalikan pointer ke node yang ditemukan • Data dalam linked list harus terurut (ascending) untuk binary search bekerja dengan benar • Tampilkan langkah-langkah pencarian dan posisi tengah setiap iterasi • Program utama harus membuat linked list dengan minimal 5 elemen dan melakukan pencarian.
 
 file "soal1.cpp"
 ```C++
@@ -645,7 +648,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan4_modul4/output_unguided1_modul4.png)
+![Screenshot Output Unguided 1](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan5_modul5/output_unguided1_modul5.png)
 
 penjelasan unguided 1 
 
@@ -654,8 +657,8 @@ Program ini mendemonstrasikan pencarian data menggunakan metode binary search pa
 
 ### 2. (soal unguided 2)
 Implementasikan program C++ yang menggunakan algoritma Linear Search pada Linked List untuk mencari elemen tertentu. Program harus mampu:
- 1.Membuat linked list dengan menambahkan node di akhir
- 2.Mengimplementasikan linear search pada linked list
+ 1.Membuat linked list dengan menambahkan node di akhir <br>
+ 2.Mengimplementasikan linear search pada linked list <br>
  3.Menampilkan detail proses pencarian dan hasil akhir Petunjuk Tugas 2: • Gunakan struktur Node dengan data integer dan pointer next • Implementasikan fungsi append() untuk menambah node • Implementasikan fungsi linearSearch() yang mengembalikan pointer ke node yang ditemukan • Data dalam linked list tidak perlu terurut untuk linear search • Tampilkan setiap langkah pencarian dan node yang sedang diperiksa • Program utama harus membuat linked list dengan minimal 3 elemen dan melakukan pencarian
 
 file "soal2.cpp"
@@ -768,7 +771,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan4_modul4/output_unguided2_modul4.png)
+![Screenshot Output Unguided 2](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan5_modul5/output_unguided2_modul5.png)
 
 penjelasan unguided 2
 
@@ -779,5 +782,5 @@ Program ini adalah implementasi pencarian linear pada linked list dalam bahasa C
 Linked List adalah sebuah struktur data linier di mana setiap elemen atau node terhubung melalui pointer alih-alih disimpan di memori yang berurutan, dan untuk mencari data di dalamnya, metode Linear Search dapat digunakan dengan memeriksa setiap node satu per satu tanpa perlu data terurut, meskipun lambat untuk data besar, sementara Binary Search menawarkan solusi yang jauh lebih cepat dengan membagi data menjadi dua secara berulang, namun dengan syarat mutlak bahwa data harus sudah diurutkan terlebih dahulu.
 
 ## Referensi
-[1] Pratama, M. A. (2020). STRUKTUR DATA ARRAY DUA DIMENSI PADA PEMROGRAMAN C++.[text](https://osf.io/preprints/vyech)
-<br>[2] Düzgün, M. T. (2024, June 9). Understanding and implementing singly linked lists in C++. Medium..[text](https://medium.com/@togunchan/understanding-and-implementing-singly-linked-lists-in-c-2dc7aa5df07e)
+[1] Ginting, S. H. N., Effendi, H., Kumar, S., Marsisno, W., Sitanggang, Y. R. U., Anwar, K., ... & Smrti, N. N. E. (2024). Pengantar struktur data. Penerbit Mifandi Mandiri Digital, 1(01).[text](https://jurnal.mifandimandiri.com/index.php/penerbitmmd/article/view/39/33)
+<br>[2] Putra, M. Naufal Adrian Pratama. 2023. Algoritma Pemrograman: Linear Search & Binary Search. Medium, 29 Juni 2023. Diakses dari [text](https://medium.com/@naufal.adrian904/algoritma-pemrograman-linear-search-binary-search-3cd4403bab88)
