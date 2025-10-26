@@ -656,7 +656,7 @@ Program ini mendemonstrasikan pencarian data menggunakan metode binary search pa
 
 
 ### 2. (soal unguided 2)
-Implementasikan program C++ yang menggunakan algoritma Linear Search pada Linked List untuk mencari elemen tertentu. Program harus mampu:
+Implementasikan program C++ yang menggunakan algoritma Linear Search pada Linked List untuk mencari elemen tertentu. Program harus mampu: <br>
  1.Membuat linked list dengan menambahkan node di akhir <br>
  2.Mengimplementasikan linear search pada linked list <br>
  3.Menampilkan detail proses pencarian dan hasil akhir Petunjuk Tugas 2: • Gunakan struktur Node dengan data integer dan pointer next • Implementasikan fungsi append() untuk menambah node • Implementasikan fungsi linearSearch() yang mengembalikan pointer ke node yang ditemukan • Data dalam linked list tidak perlu terurut untuk linear search • Tampilkan setiap langkah pencarian dan node yang sedang diperiksa • Program utama harus membuat linked list dengan minimal 3 elemen dan melakukan pencarian
