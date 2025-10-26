@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 4 - Singly Linked List (Bagian Kedua)</h1>
+# <h1 align="center">Laporan Praktikum Modul 5 - Singly Linked List (Bagian Kedua)</h1>
 <p align="center">Muhammad Nur Ramadhani - 103112400154</p>
 
 ## Dasar Teori
