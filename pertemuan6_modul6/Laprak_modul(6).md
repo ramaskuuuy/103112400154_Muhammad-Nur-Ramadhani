@@ -749,7 +749,7 @@ int main() { // penggunaan fungsi-fungsi dalam Doublylist
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1]()
+![Screenshot Output Unguided 1_1](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan6_modul6/output_unguided1_modul6.png)
 
 Program ini adalah implementasi doubly linked list untuk mengelola data kendaraan (nopol, warna, tahun) secara dinamis. Program ini memiliki fungsi untuk membuat list, menambah data di akhir (sambil mengecek duplikasi nopol), mencari berdasarkan nopol, dan menghapus data (baik di awal, akhir, atau tengah). Pada fungsi main, pengguna dapat menguji operasi input, display, pencarian, dan penghapusan data
 
