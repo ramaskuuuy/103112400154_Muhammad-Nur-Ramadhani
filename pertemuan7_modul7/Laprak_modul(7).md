@@ -3,13 +3,12 @@
 
 
 ## Dasar Teori
-Linked List adalah jenis struktur data linier di mana setiap elemen tidak disimpan di tempat yang berdekatan, melainkan dihubungkan melalui pointer. Linked List terdiri dari rangkaian node yang saling terhubung, di mana setiap node berisi data dan alamat node berikutnya [1].
 
+### A. Stack<br/>
+Stack adalah struktur data linier yang mengikuti aturan tertentu untuk melakukan operasi. Data yang memiliki struktur stack, tersusun seperti tumpukan, sehingga hanya elemen yang baru dimasukkan yang dapat diakses atau dilihat. Ujung tumpukan yang digunakan untuk melakukan semua operasi disebut bagian atas tumpukan. Stack mengikuti prinsip LIFO (Last In First Out), yang berarti elemen yang dimasukkan terakhir akan menjadi elemen pertama yang keluar dari urutan data [1].
 
-### A. Doubly linked list<br/>
-Doubly linked list adalah linked list bidirectional. Jadi, kita bisa melintasinya secara dua arah. Tidak seperti singly linked list, simpul doubly linked list berisi satu pointer tambahan yang disebut previous pointer. Pointer ini menunjuk ke simpul sebelumnya [2].
-Double linked list memiliki beberapa operasi dasar pada list, misalkan penyisipan(insert first,last, after/before), penghapusan(delete first,last, node), menampilkan maju, dan menampilkan mundur [3].
-
+### B. Implementasi Stack<br/>
+Terdapat dua implementasi umum: Array / Statis: ukuran tetap, sederhana secara implementasi namun kurang fleksibel [2]. Linked List / Dinamis: menggunakan node dan pointer, ukuran fleksibel mengikuti alokasi memori [2].
 
 ## Guided 
 
@@ -220,7 +219,7 @@ int main(){
     return 0;
 }
 ```
-Program ini mengimplementasikan doubly linked list untuk manajemen data makanan. Operasi yang didukung meliputi inisialisasi list, penyisipan node (di berbagai posisi), traversal (menampilkan isi list), dan update (pembaruan) data pada node tertentu.
+Program ini mengimplementasikan struktur data Stack dinamis (LIFO) menggunakan linked list. Program ini menyediakan operasi dasar seperti push, pop, dan view, serta fungsi tambahan untuk memperbarui dan mencari data. Fungsi main mendemonstrasikan alur kerja: setelah memasukkan lima data, program melakukan dua kali pop, beberapa kali update, dan pencarian. Implementasi ini dilengkapi validasi input dan notifikasi untuk setiap operasi.
 
 ### 2. soal guided 2
 
@@ -307,7 +306,7 @@ int main() {
     return 0;
 }
 ```
-Program ini mengimplementasikan doubly linked list untuk manajemen data kendaraan (nopol, warna, tahun). Operasi yang didukung meliputi inisialisasi list, penambahan data (di akhir), pencarian (via nopol), penghapusan, dan penampilan semua data.
+Program ini mengimplementasikan Stack statis menggunakan array berkapasitas 20 elemen dengan penunjuk indeks top. Selain operasi dasar seperti push, pop, dan validasi kapasitas (empty/full), tersedia fungsi balikStack yang menggunakan dua stack bantu untuk membalik urutan data. Fungsi main mendemonstrasikan alur manipulasi data, pencetakan awal, proses pembalikan, dan pencetakan hasil akhir.
 
 ## Unguided 
 
@@ -427,9 +426,9 @@ int main(){
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan6_modul6/output_unguided1_modul6.png)
+![Screenshot Output Unguided 1_1](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan7_modul7/output_unguided1_modul7.png)
 
-Program ini adalah implementasi doubly linked list untuk mengelola data kendaraan (nopol, warna, tahun) secara dinamis. Program ini memiliki fungsi untuk membuat list, menambah data di akhir (sambil mengecek duplikasi nopol), mencari berdasarkan nopol, dan menghapus data (baik di awal, akhir, atau tengah). Pada fungsi main, pengguna dapat menguji operasi input, display, pencarian, dan penghapusan data
+Fungsi main ini menguji fungsionalitas ADT Stack, terutama fungsi balikstack. Program diawali dengan createStack, lalu mengeksekusi urutan operasi: push(3), push(4), push(8), diikuti pop(). Dilanjutkan dengan push(2), push(3), pop(), dan diakhiri push(9). Stack yang dihasilkan (dari atas: 9, 2, 4, 3) ditampilkan oleh printinfo. Setelah itu, balikstack digunakan untuk membalik urutan elemen, dan hasilnya dicetak kembali untuk verifikasi.
 
 ### 2. Soal unguided 
 Tambahkan prosedur pushAscending( in/out S : Stack, in x : integer)
@@ -572,9 +571,9 @@ int main(){
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan6_modul6/output_unguided1_modul6.png)
+![Screenshot Output Unguided 1_1](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan7_modul7/output_unguided2_modul7.png)
 
-Program ini adalah implementasi doubly linked list untuk mengelola data kendaraan (nopol, warna, tahun) secara dinamis. Program ini memiliki fungsi untuk membuat list, menambah data di akhir (sambil mengecek duplikasi nopol), mencari berdasarkan nopol, dan menghapus data (baik di awal, akhir, atau tengah). Pada fungsi main, pengguna dapat menguji operasi input, display, pencarian, dan penghapusan data
+Fungsi main ini menguji ADT Stack, berfokus pada operasi pushascanding. Program diawali dengan createStack, lalu mengeksekusi pushascanding untuk data 3, 4, 8, 2, 3, dan 9. Operasi ini menyusun Stack dalam urutan ascending (dari bawah ke atas: [2, 3, 3, 4, 8, 9]). Isi Stack ini kemudian ditampilkan oleh printinfo. Selanjutnya, balikstack digunakan untuk membalik urutan elemen, dan hasil pembalikan tersebut dicetak kembali untuk verifikasi.
 
 ### 3. Soal unguided 
 Tambahkan prosedur pushAscending( in/out S : Stack, in x : integer)
@@ -725,15 +724,14 @@ int main(){
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan6_modul6/output_unguided1_modul6.png)
+![Screenshot Output Unguided 1_1](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan7_modul7/output_unguided3_modul7.png)
 
-Program ini adalah implementasi doubly linked list untuk mengelola data kendaraan (nopol, warna, tahun) secara dinamis. Program ini memiliki fungsi untuk membuat list, menambah data di akhir (sambil mengecek duplikasi nopol), mencari berdasarkan nopol, dan menghapus data (baik di awal, akhir, atau tengah). Pada fungsi main, pengguna dapat menguji operasi input, display, pencarian, dan penghapusan data
+Fungsi main ini menguji ADT Stack, berfokus pada penerimaan input dinamis dan pembalikan. Program diawali dengan createStack, lalu memanggil getInputStream(S) untuk mempopulasi Stack (kemungkinan berdasarkan runtime input pengguna). Isi Stack awal ini ditampilkan oleh printinfo. Selanjutnya, balikstack dieksekusi, dan hasil pembalikan urutan tersebut dicetak kembali untuk verifikasi.
 
 
 ## Kesimpulan
-Linked List adalah struktur data yang bersifat dinamis, terdiri dari sekumpulan node yang terhubung satu sama lain menggunakan pointer. Struktur ini memungkinkan pengelolaan data yang fleksibel karena tidak membutuhkan alokasi memori yang berurutan. Salah satu jenisnya adalah Doubly Linked List, yang memiliki kemampuan navigasi dua arah (ke depan dan ke belakang) melalui penggunaan pointer next dan prev. Hal ini membuat proses pencarian dan akses data menjadi lebih mudah dan efisien. Doubly Linked List mendukung berbagai operasi fundamental seperti penambahan node, penghapusan node, serta traversal data yang dapat dilakukan dari node pertama maupun node terakhir. Karakteristik ini menjadikan Doubly Linked List sangat bermanfaat untuk menangani data yang kompleks dan bersifat dinamis.
+Stack adalah struktur data linier yang penting untuk pengelolaan data dinamis. Stack beroperasi secara ketat menggunakan prinsip LIFO (Last In First Out), di mana elemen terakhir yang dimasukkan adalah elemen pertama yang harus dikeluarkan. Karena mekanisme ini, Stack sangat efektif untuk menyelesaikan masalah yang membutuhkan urutan operasi tertentu.
 
 ## Referensi
-[1]Ginting, S. H. N., Effendi, H., Kumar, S., Marsisno, W., Sitanggang, Y. R. U., Anwar, K., ... & Smrti, N. N. E. (2024). Pengantar struktur data. Penerbit Mifandi Mandiri Digital, 1(01).<br>
-[2]Trivusi. (2022, 16 September). Struktur Data Linked List: Pengertian, Karakteristik, dan Jenis-jenisnya. Diakses dari https://share.google/pozbIqzUEbmikX8fA<br>
-[3]Rizkidoank. 2016. Double Linked List. Diakses pada 1 November 2025 dari https://share.google/41EjwqvTZzzn1nvmN
+[1]Soffya Ranti. (2022). Pengertian Stack dan Queue serta Contoh Penerapannya. Kompas.Com [text](https://tekno.kompas.com/read/2022/12/01/02150047/pengertian-stack-dan-queue-serta-contoh-penerapannya?utm_source=Various&utm_medium=Referral&utm_campaign=Top_Desktop)<br>
+[2]GeeksforGeeks — Stack Data Structure [text](https://www.geeksforgeeks.org/dsa/stack-data-structure/)<br>
