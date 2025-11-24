@@ -475,11 +475,13 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1]()
+![Screenshot Output Unguided 1_1](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan8_modul8/output_unguided1_modul8.png)
 
 Program ini mengimplementasikan struktur data Queue (antrian) menggunakan array sederhana tanpa mekanisme circular. Queue terdiri dari array info[MAX_QUEUE] dengan dua penanda posisi yaitu head dan tail. Fungsi CreateQueue menginisialisasi head dan tail dengan nilai 0 sebagai penanda antrian kosong. Pemeriksaan kondisi kosong dilakukan melalui isEmptyQueue dengan mengecek apakah head bernilai 0, sedangkan isFullQueue memeriksa apakah tail telah mencapai kapasitas maksimum.
 Operasi enqueue menambahkan elemen baru pada posisi tail. Ketika antrian kosong, head dan tail diatur menjadi 1 dan data ditempatkan di indeks 0. Untuk antrian yang tidak kosong, tail bertambah dan data disimpan pada posisi tail - 1. Sementara itu, operasi dequeue mengambil elemen terdepan dari indeks 0, kemudian menggeser seluruh elemen ke kiri agar posisi depan tetap berada di indeks 0. Setelah penghapusan, tail dikurangi dan jika tail menjadi 0, antrian kembali kosong dengan head diatur ke 0.
 Fungsi printInfo menampilkan posisi HEAD dan TAIL sesuai format yang ditentukan beserta isi antrian saat ini. Pada fungsi main, program mendemonstrasikan cara kerja queue melalui serangkaian operasi enqueue dan dequeue dengan menampilkan isi antrian setelah setiap operasi. Program ini menunjukkan implementasi queue sederhana yang menggunakan teknik shifting (pergeseran array) pada setiap penghapusan untuk menjaga struktur data tetap teratur dengan elemen terdepan selalu berada di indeks pertama.
+
+
 ### 2. Soal unguided 2
 Buatlah implementasi ADT Queue pada file“queue.cpp” dengan menerapkan mekanisme
 queue Alternatif 2 (head bergerak, tail bergerak).
@@ -591,7 +593,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1]()
+![Screenshot Output Unguided 2_1](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan8_modul8/output_unguided2_modul8.png)
 
 Program ini mengimplementasikan struktur data queue menggunakan array linear yang bergerak maju tanpa mekanisme circular. Queue terdiri dari array info[MAX_QUEUE] dengan dua indeks utama: head sebagai penanda posisi elemen terdepan dan tail sebagai penanda posisi elemen terakhir. Pada inisialisasi menggunakan CreateQueue, head diatur ke 0 dan tail ke -1 untuk menandakan antrian kosong. Fungsi isEmptyQueue memeriksa apakah tail berada di belakang head untuk menentukan kondisi kosong, sementara isFullQueue mengecek apakah tail telah mencapai indeks maksimum.
 Dalam operasi enqueue, selama antrian belum penuh, tail akan bertambah satu dan elemen baru ditempatkan pada posisi tersebut. Untuk operasi dequeue, elemen terdepan pada posisi head diambil kemudian head ditambah satu. Jika setelah pengambilan elemen nilai head melebihi tail, maka queue direset dengan mengembalikan kedua indeks ke posisi awal. Fungsi printInfo menampilkan posisi head dan tail beserta seluruh elemen queue dari head hingga tail.
@@ -706,7 +708,7 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1]()
+![Screenshot Output Unguided 3_1](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan8_modul8/output_unguided3_modul8.png)
 
 Program ini mengimplementasikan CircularQueue menggunakan array dengan teknik pergeseran indeks berbasis modulus. Struktur queue terdiri dari array info[MAX_QUEUE] dengan dua penanda yaitu head dan tail yang menunjukkan posisi elemen pertama dan terakhir. Fungsi CreateQueue menginisialisasi kedua indeks dengan nilai -1 sebagai penanda antrian kosong. Fungsi isEmptyQueue memeriksa apakah head dan tail bernilai -1, sedangkan isFullQueue mendeteksi kondisi penuh dengan mengecek apakah posisi setelah tail yaitu (tail + 1) % MAX_QUEUE bertabrakan dengan head.
 Pada operasi enqueue, jika antrian kosong maka head dan tail diatur ke 0. Jika antrian berisi elemen, tail dimajukan secara circular menggunakan formula (tail + 1) % MAX_QUEUE, kemudian data baru ditambahkan pada posisi tail tersebut. Untuk operasi dequeue, elemen pada posisi head dihapus dan head dimajukan secara circular. Apabila setelah penghapusan nilai head sama dengan tail, kedua indeks dikembalikan ke -1 menandakan antrian kembali kosong.
