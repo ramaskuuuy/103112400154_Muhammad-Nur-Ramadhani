@@ -6,7 +6,7 @@ using namespace std;
 
 const int MAX = 6;
 
-// Define struct for student data
+
 struct Mahasiswa {
     string Name;
     string NIM;
@@ -20,7 +20,7 @@ struct StackMahasiswa {
     int Top = -1;
 };
 
-// Function Prototypes
+
 bool isEmpty(StackMahasiswa& S);
 bool isFull(StackMahasiswa& S);
 void createStack(StackMahasiswa& S);
