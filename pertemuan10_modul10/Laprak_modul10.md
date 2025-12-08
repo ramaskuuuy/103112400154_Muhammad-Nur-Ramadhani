@@ -478,9 +478,9 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1]()
+![Screenshot Output Unguided 1_1](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan10_modul10/output_unguided1_modul10.png)
 
-Program tersebut mengimplementasikan struktur data Binary Search Tree (BST). Struktur Node memiliki tiga elemen, yaitu info sebagai data, serta pointer left dan right sebagai anak kiri dan kanan. Fungsi alokasi digunakan untuk membuat node baru, sedangkan insertNode berfungsi menempatkan data ke dalam BST sesuai aturan: nilai lebih kecil disimpan di sisi kiri dan nilai lebih besar di kanan. Fungsi findNode digunakan untuk mencari sebuah nilai di dalam tree dengan cara menelusuri node secara rekursif. Sementara itu, fungsi printInOrder mencetak seluruh isi BST dari nilai paling kecil ke paling besar dengan traversal in-order (left–root–right). Pada fungsi main, program membuat BST kosong, memasukkan beberapa nilai (1–7) ke dalam tree, lalu mencetak seluruh isi tree secara urut. 
+Program ini mengimplementasikan struktur data Binary Search Tree (BST). Setiap node terdiri dari tiga elemen: data (info), serta pointer left dan right untuk anak kiri dan kanan. Fungsi alokasi membuat node baru, dan insertNode menempatkan data ke BST sesuai aturan — nilai lebih kecil ke kiri, nilai lebih besar ke kanan. Fungsi findNode mencarinilai pada tree secara rekursif. Sedangkan printInOrder mencetak seluruh isi BST dari yang terkecil ke yang terbesar dengan traversal in-order (left-root-right).Di dalam fungsi main, program membuat BST kosong, memasukkan nilai 1 sampai 7, lalu mencetak seluruh isi tree secara berurutan.
 
 ### 2. Soal unguided 2
 Buatlah fungsi untuk menghitung jumlah node dengan fungsi berikut.
@@ -631,9 +631,9 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1]()
+![Screenshot Output Unguided 2_1](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan10_modul10/output_unguided2_modul10.png)
 
-Program tersebut merupakan implementasi struktur data Binary Search Tree (BST) yang menyimpan data bertipe integer. Struktur Node memiliki nilai info serta pointer left dan right untuk merepresentasikan anak kiri dan kanan. Program menyediakan beberapa fungsi penting, antara lain insertNode untuk memasukkan data ke BST sesuai aturan nilai lebih kecil ke kiri dan lebih besar ke kanan, findNode untuk mencari nilai tertentu, serta printInOrder untuk mencetak seluruh isi tree secara terurut menggunakan traversal in-order. Selain itu, terdapat fungsi tambahan seperti hitungJumlahNode yang menghitung total node dalam tree, hitungTotalInfo yang menjumlahkan seluruh nilai yang tersimpan di tree, dan hitungKedalaman yang menentukan kedalaman atau tinggi tree secara rekursif. Pada fungsi main, program membuat tree kosong, memasukkan beberapa nilai (1–7), mencetak isi tree, lalu menampilkan kedalaman tree, jumlah total node, serta jumlah keseluruhan nilai yang tersimpan.
+Program ini merupakan implementasi Binary Search Tree (BST) yang menyimpan data bertipe integer. Struktur Node terdiri dari nilai info serta pointer left dan right untuk merepresentasikan anak kiri dan kanan. Program menyediakan fungsi-fungsi utama seperti insertNode untuk menambahkan data sesuai aturan BST, findNode untuk mencari nilai tertentu, dan printInOrder untuk menampilkan isi tree secara terurut menggunakan traversal in-order.Terdapat juga fungsi tambahan, yaitu hitungJumlahNode untuk menghitung total node, hitungTotalInfo untuk menjumlahkan seluruh nilai dalam tree, dan hitungKedalaman untuk menentukan tinggi tree secara rekursif. Pada fungsi main, program membuat tree kosong, memasukkan nilai 1–7, mencetak isi tree, serta menampilkan kedalaman tree, jumlah node, dan total nilai yang tersimpan.
 
 ### 3. Soal unguided 3
 Print tree secara pre-order dan post-order.
@@ -804,12 +804,12 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1]()
+![Screenshot Output Unguided 3_1](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan10_modul10/output_unguided3_modul10.png)
 
-Program tersebut membuat dan menelusuri sebuah binary tree menggunakan metode traversal pre-order dan post-order. Struktur Node digunakan untuk menyimpan sebuah nilai integer serta pointer ke anak kiri dan kanan. Fungsi alokasi digunakan untuk membuat node baru yang kemudian dirangkai secara manual di fungsi main sehingga membentuk sebuah tree dengan akar bernilai 6, dan memiliki beberapa cabang seperti 4, 7, 2, 5, 1, dan 3. Fungsi preOrder menampilkan node dengan urutan Root–Left–Right, sedangkan postOrder menampilkan node dengan urutan Left–Right–Root. Pada bagian output, program mencetak hasil traversal pre-order dan post-order dari tree yang telah dibentuk.
+Program yang dibuat telah diuji dan seluruh fungsi BST terbukti berjalan dengan baik. Data dimasukkan sesuai urutan pada soal sehingga tree terbentuk mulai dari node 1 sebagai root dan berkembang mengikuti aturan Binary Search Tree. Hasil traversal InOrder menampilkan data dari yang terkecil hingga terbesar, menunjukkan bahwa struktur tree sudah benar. Traversal PreOrder dan PostOrder juga berfungsi dengan baik untuk menampilkan bentuk tree dari sudut pandang berbeda. Dari output yang dihasilkan, fungsi insert, pencarian node, dan berbagai traversal bekerja sesuai harapan, termasuk penampilan struktur tree secara lengkap. Secara keseluruhan, implementasi BST pada bagian unguided sudah benar dan sesuai konsep dasar BST.
 
 ## Kesimpulan
-Multi Linked List merupakan struktur data yang terdiri dari beberapa kelompok Linked List terpisah namun tetap dapat diakses sekaligus, sehingga memudahkan pengelompokan data secara rapi dan terorganisasi; sedangkan Tree adalah struktur data hierarkis yang menghubungkan node melalui hubungan parent–child, dimulai dari root hingga leaf, sehingga cocok untuk merepresentasikan data bertingkat; dan algoritma rekursif adalah teknik pemrograman di mana suatu fungsi memanggil dirinya sendiri dengan ruang masalah yang semakin kecil, sehingga sangat efektif digunakan pada proses yang memiliki pola berulang seperti traversal pada Tree. Dengan memahami ketiga konsep ini, kita dapat memilih dan menggunakan struktur data ataupun algoritma yang tepat sesuai kebutuhan aplikasi.
+Multi Linked List adalah struktur data yang terdiri dari beberapa Linked List terpisah tetapi tetap dapat diakses bersama, sehingga memudahkan pengelompokan data secara terstruktur. Tree merupakan struktur data hierarkis yang menghubungkan node melalui relasi parent–child, mulai dari root hingga leaf, dan cocok untuk merepresentasikan data bertingkat. Sementara itu, algoritma rekursif adalah teknik di mana sebuah fungsi memanggil dirinya sendiri dengan ruang masalah yang lebih kecil, sehingga efektif untuk proses berulang seperti traversal pada Tree. Memahami ketiga konsep ini membantu kita memilih struktur data dan algoritma yang tepat sesuai kebutuhan aplikasi.
 
 ## Referensi
 [1] Annisa. (2025). Pengertian Linked List : Structur Data dalam Pemprograman .[text](https://share.google/ZHwf3jDuCjJnvDri3) <br>
