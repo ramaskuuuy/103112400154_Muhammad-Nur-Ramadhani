@@ -679,11 +679,11 @@ int main(){
 ```
 ## Output
 #### a. Insert
-![]()
+![Screenshot Output Unguided 1_1]()
 #### b. Search Hewan
-![]()
+![Screenshot Output Unguided 1_2]()
 #### c. Delete node G004
-![]()
+![Screenshot Output Unguided 1_3]()
 
 
 Program C++ ini mengimplementasikan Multi Linked List (MLL) untuk memodelkan struktur data hierarkis, menggunakan golongan hewan sebagai node induk dan data hewan spesifik sebagai node anak. Setiap node induk bertindak sebagai kepala daftar data hewan yang termasuk dalam golongan tersebut. Fitur-fitur yang disediakan meliputi pembuatan list, manajemen memori (alokasi/dealokasi), operasi CRUD (penambahan dan penghapusan) untuk data induk maupun anak, menampilkan seluruh struktur MLL, dan pencarian data hewan spesifik berdasarkan kriteria ekor. Struktur ini memungkinkan penelusuran dan pengelolaan data hewan secara efisien berdasarkan kategorinya.
