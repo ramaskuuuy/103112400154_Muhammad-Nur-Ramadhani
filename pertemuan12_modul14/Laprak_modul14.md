@@ -144,7 +144,7 @@ Program ini mengimplementasikan struktur data graph berarah (directed graph) men
 
 ### 1. Soal Unguided 
 Buatlah ADT Graph tidak berarah file “graph.h”.Buatlah implementasi ADT Graph pada file“graph.cpp” dan cobalah hasil implementasi ADT
-pada file “main.cpp”.
+pada file “main.cpp” dan Buatlah prosedur untuk menampilkanhasil penelusuran DFS serta penelusuran BFS.
 
 graph.h
 ```C++
@@ -358,11 +358,11 @@ int main(){
 ```
 ### Output Unguided  :
 #### a. enampilkan setiap node beserta node-node lain yang terhubung (PrintInfoGraph)
-![Screenshot Output Unguided 1_1]()
+![Screenshot Output Unguided 1_1](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan12_modul14/output_unguided1_modul14.png)
 #### b. Hasil penelusuran DFS.
-![Screenshot Output Unguided 1_2]()
+![Screenshot Output Unguided 1_2](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan12_modul14/output_unguided2_modul14.png)
 #### c.Hasil penelusuran BFS.
-![Screenshot Output Unguided 1_3]()
+![Screenshot Output Unguided 1_3](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan12_modul14/output_unguided3_modul14.png)
 
 Program ini merupakan implementasi struktur data graph tak berarah (undirected graph) menggunakan linked list dalam bahasa C++. Graph dibangun dengan menambahkan node A hingga H yang masing-masing menyimpan informasi berupa karakter serta daftar edge dalam bentuk adjacency list. Setiap hubungan antar node dibentuk secara dua arah melalui fungsi ConnectNode, sehingga memungkinkan penelusuran bolak-balik. Program ini mendukung proses penelusuran graph menggunakan algoritma Depth First Search (DFS) dan Breadth First Search (BFS), di mana setiap node memiliki penanda visited untuk mencegah kunjungan berulang. Sebelum penelusuran dilakukan, seluruh node diinisialisasi sebagai belum dikunjungi melalui fungsi Visited. Penelusuran DFS dilakukan secara mendalam mulai dari node A, sedangkan BFS dilakukan secara melebar dengan bantuan struktur data queue. Hasil penelusuran dan keterhubungan antar node ditampilkan menggunakan fungsi pencetakan, sehingga program ini menunjukkan proses membangun, menghubungkan, dan menelusuri graph tak berarah secara lengkap dan terstruktur.
 
