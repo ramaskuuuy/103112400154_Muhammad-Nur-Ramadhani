@@ -357,7 +357,7 @@ int main(){
 }
 ```
 ### Output Unguided  :
-#### a. enampilkan setiap node beserta node-node lain yang terhubung (PrintInfoGraph)
+#### a. Menampilkan setiap node beserta node-node lain yang terhubung (PrintInfoGraph)
 ![Screenshot Output Unguided 1_1](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan12_modul14/output_unguided1_modul14.png)
 #### b. Hasil penelusuran DFS.
 ![Screenshot Output Unguided 1_2](https://github.com/ramaskuuuy/103112400154_Muhammad-Nur-Ramadhani/blob/main/pertemuan12_modul14/output_unguided2_modul14.png)
